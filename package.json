@@ -1,0 +1,35 @@
+{
+  "name": "sails-hook-bull-board",
+  "version": "0.0.1",
+  "description": "Add bull with bull-board UI to sailsjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ex7r3me/sails-hook-bull-board.git"
+  },
+  "keywords": [
+    "sailsjs",
+    "bull",
+    "job",
+    "queue",
+    "hook",
+    "bull-board"
+  ],
+  "author": "ex7r3me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ex7r3me/sails-hook-bull-board/issues"
+  },
+  "homepage": "https://github.com/ex7r3me/sails-hook-bull-board#readme",
+  "dependencies": {
+    "bull-board": "^0.6.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "sails": "^1.2.3"
+  }
+}
